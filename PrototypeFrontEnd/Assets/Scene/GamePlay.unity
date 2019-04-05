@@ -452,7 +452,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1024, y: 600}
+  m_ReferenceResolution: {x: 2180, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
@@ -514,7 +514,7 @@ MonoBehaviour:
   levelButtonPrefab: {fileID: 112416, guid: 49176edb41003d34a8b54fbddd513720, type: 2}
   HUDPrefab: {fileID: 175746, guid: 7f1a9070b58041744b0d3cdb05cfe68a, type: 2}
   resultsPrefab: {fileID: 100558, guid: 31b5f6f6ea6e8b146b617e1f23818e9d, type: 2}
-  angrybirdsFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  angrybirdsFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 3}
 --- !u!1 &669653354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,9 +1389,9 @@ RectTransform:
   m_Father: {fileID: 657299014}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352, y: 62}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 738, y: 62}
   m_SizeDelta: {x: 167, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1774308115
