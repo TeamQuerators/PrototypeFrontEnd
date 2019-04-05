@@ -414,6 +414,7 @@ GameObject:
   - component: {fileID: 657299013}
   - component: {fileID: 657299012}
   - component: {fileID: 657299011}
+  - component: {fileID: 657299015}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -497,6 +498,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &657299015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 657299010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b09f18bfb4f1c4b80c685151b8d68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerPrefab: {fileID: 108524, guid: b7a90f881e3e05749b4b71d4d7c113fa, type: 2}
+  worldButtonPrefab: {fileID: 103856, guid: 26e91de3d70d825418c89349bcc0bbdc, type: 2}
+  levelButtonPrefab: {fileID: 112416, guid: 49176edb41003d34a8b54fbddd513720, type: 2}
+  HUDPrefab: {fileID: 175746, guid: 7f1a9070b58041744b0d3cdb05cfe68a, type: 2}
+  resultsPrefab: {fileID: 100558, guid: 31b5f6f6ea6e8b146b617e1f23818e9d, type: 2}
+  angrybirdsFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &669653354
 GameObject:
   m_ObjectHideFlags: 0
